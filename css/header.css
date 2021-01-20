@@ -1,0 +1,97 @@
+html , body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f9f9f9;
+    overflow-x: hidden;
+}
+
+#navigation nav {
+    padding: 15px 40px;
+    box-shadow: 2px 6px 10px rgba(0,0,0,0.3);
+}
+
+/* #navigation .navbar {
+  height: 60px;
+} */
+
+.navbar-dark {
+  background: #2F2E41;
+}
+
+#navigation button {
+    background: none;
+    border: none;
+}
+
+#navigation .navbar-toggler span {
+    width: 28px;
+}
+
+#navigation nav .nav-item {
+    padding-right: 30px;
+}
+
+#navigation .dropdown a {
+  color: #fff;
+}
+
+#navigation .dropdown a:hover {
+  color: rgba(255,255,255,0.6);
+}
+
+#navigation .dropdown-menu a {
+  color: black;
+}
+
+#navigation .dropdown-menu .dropdown-item:hover {
+  background: rgba(0,0,0,0.1);
+  color: black;
+}
+
+#navigation .navbar-nav .nav-item{
+    color: #fff;
+    font-family: "Poppins";
+    padding-left: 1rem;
+    font-size: 1.1rem;
+}
+
+#navigation .navbar-nav .nav-item:hover {
+  /* background: rgba(255,255,255,0.1); */
+  color: rgba(255,255,255,0.6);
+}
+
+
+
+/* Media Queries  */
+
+/* Small Devices, Tablets Pro */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #navigation nav {
+        padding: 5px 10px;
+    }
+
+    #navigation nav .navbar-brand img {
+        width: 100px;
+    }
+}
+
+
+/* Small Devices, Mobiles */
+@media screen and (max-width: 420px) {
+
+}

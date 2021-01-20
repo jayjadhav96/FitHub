@@ -1,0 +1,48 @@
+section {
+    overflow-x: hidden;
+}
+
+#footer {
+    background: #2F2E41;
+    /* height: 500px; */
+}
+
+
+#footer .row ul {
+  padding: 4rem 0 1rem;
+}
+
+#footer .row ul li {
+  list-style-type: none;
+  padding-bottom: 1.1rem;
+}
+
+#footer .row ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+#footer .row ul li a:hover {
+  color: rgba(255,255,255,0.6);
+}
+
+#footer .brand-name {
+  padding: 3rem;
+  text-align: center;
+}
+
+#footer .brand-name a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+}
+
+
+
+
+
+
+/* Media Queries */

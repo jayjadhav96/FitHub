@@ -1,0 +1,172 @@
+#feature-contact {
+  margin-top: 12rem;
+}
+
+#feature-contact h2 {
+	text-align: center;
+  margin: 2rem 0;
+	font-weight: 500;
+  font-size: 3rem;
+	letter-spacing: 1.5px;
+	font-family: "Neuton";
+}
+#feature-contact li {
+	text-align: center;
+	list-style: none;
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  margin-left: -35px;
+}
+
+#feature-contact .contact-form {
+  margin-bottom: 8rem;
+}
+
+#feature-contact .contact-form input {
+  width: 450px;
+  border-radius: 4px;
+  border: 0.5px solid grey;
+  margin: 1rem 0;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.3); */
+}
+
+#feature-contact .contact-form input[placeholder] {
+  padding: 10px 10px;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+#feature-contact .contact-form input:focus {
+  outline: none !important;
+  /* border: 2px solid green; */
+}
+
+#feature-contact .contact-form textarea {
+  border-radius: 4px;
+  border: 0.5px solid grey;
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.3); */
+  margin-bottom: 2rem;
+}
+
+#feature-contact .contact-form textarea[placeholder] {
+  padding: 10px 10px;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+#feature-contact .contact-form textarea:focus {
+  outline: none !important;
+}
+
+#feature-contact .contact-form button {
+  outline: none !important;
+  border: none;
+  background: #071A52;
+  padding: 0.6rem 1.8rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-family: "Montserrat";
+  z-index: 9999;
+
+}
+
+#feature-contact .contact-form button:hover {
+  background-color: #0c2a8d;
+  box-sizing: border-box;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.9);
+  transition: 0.2s ease;
+}
+
+
+
+
+
+/* Small Devices, Teblets Pro */
+@media screen and (max-width: 1024px) {
+  #feature-contact {
+    margin-top: 300px;
+    /* height: 80vh; */
+  }
+}
+
+
+/* Small Devices, Tablets */
+@media screen and (max-width: 768px) {
+
+  #feature-contact {
+    margin-top: 100px;
+  }
+
+  #feature-contact .contact-form {
+    margin-left: 8rem;
+  }
+}
+
+
+/* Small Devices, Mobiles */
+@media screen and (max-width: 420px) {
+
+  #feature-contact {
+    margin-top: 100px;
+  }
+
+  #feature-contact .contact-form input {
+    width: 320px;
+  }
+
+  #feature-contact .contact-form textarea {
+    width: 320px;
+  }
+
+  #feature-contact .contact-form {
+    margin-left: 30px;
+  }
+}
+
+
+/* Small Devices, Mobiles */
+@media screen and (max-width: 375px) {
+
+  #feature-contact .contact-form input {
+    width: 300px;
+  }
+
+  #feature-contact .contact-form textarea {
+    width: 300px;
+  }
+
+  #feature-contact .contact-form {
+    margin-left: 20px;
+  }
+
+  #feature-contact .contact-form input[placeholder] {
+    padding: 8px 10px;
+    font-family: "Montserrat";
+    font-size: 1rem;
+  }
+
+  #feature-contact .contact-form textarea[placeholder] {
+    padding: 8px 10px;
+    font-family: "Montserrat";
+    font-size: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  #feature-contact .contact-form input {
+    width: 280px;
+  }
+
+  #feature-contact .contact-form textarea {
+    width: 280px;
+  }
+
+  #feature-contact .contact-form {
+    margin-left: 5px;
+  }
+}

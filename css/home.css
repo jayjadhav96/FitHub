@@ -1,0 +1,271 @@
+
+#stage {
+  background: rgba(0,0,0,0.9);
+  margin-top: 40px;
+}
+
+
+
+#stage img {
+  width: 100%;
+  opacity: 0.8;
+}
+
+#kudo-caption {
+  background: #086972;
+  margin-top: 15rem;
+}
+
+#kudo-caption .content {
+  padding: 6rem;
+  text-align: center;
+  color: #fff;
+}
+
+#kudo-caption .content h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 2rem;
+}
+
+#kudo-caption .content p {
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+}
+
+
+#home-body {
+  margin-top: 15rem;
+  overflow-y: hidden;
+  margin-bottom: 4rem;
+}
+
+#home-body .container .subhead {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: grey;
+  margin-bottom: 4rem;
+}
+
+hr {
+  height: 0.2px;
+  display: none;
+  background: black;
+  border: none;
+  margin-bottom: 5rem;
+}
+
+#home-body .container .subhead {
+  margin-left: 3rem;
+}
+
+#home-body .container .home-body-info {
+  margin-bottom: 7rem;
+}
+
+#home-body .container .home-body-info h3 {
+  font-family: "Neuton";
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+#home-body .container .home-body-info p {
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+#home-body .container .home-body-info .info-button {
+  /* width: 10.2rem;
+  height: 4rem; */
+  border: none;
+  outline: none !important;
+  background: #071A52;
+  padding: 0.8rem 2.0rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-family: "Montserrat";
+}
+
+#home-body .container .home-body-info .info-button:nth-of-type(5) {
+  padding-bottom: 20px;
+}
+
+
+
+#home-body .container .home-body-info .info-button:hover {
+  background-color: #0c2a8d;
+  box-sizing: border-box;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.9);
+  transition: 0.2s ease;
+}
+
+#home-body .container .home-body-info button {
+  background: none;
+  border: none;
+}
+
+#home-body .container .home-body-info .modal .modal-header {
+  background-color: #A7FF83;
+}
+
+#home-body .container .home-body-info .modal .modal-header h5 {
+  font-family: "Neuton";
+  font-size: 1.8rem;
+}
+
+#home-body .container .home-body-info .modal p {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+#home-body .container .home-body-info .modal .modal-body input {
+  width: 19rem;
+  border: .5px solid grey;
+  border-radius: 4px;
+
+}
+
+#home-body .container .home-body-info .modal .modal-body label {
+  font-family: "Montserrat";
+}
+
+#home-body .container .home-body-info .modal .modal-body input[placeholder] {
+  padding: 8px 10px;
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+
+#home-body .container .home-body-info .modal .modal-body input:focus {
+  outline: none !important;
+  border: 1.4px solid #34C002;
+}
+
+#home-body .container .home-body-info .modal .modal-body .modal-footer .cancel-btn {
+  background: grey;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#home-body .container .home-body-info .modal .modal-body .modal-footer .get-btn {
+  background: #34C002;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#home-body .container .home-body-info .modal .modal-body .modal-footer .get-btn:hover {
+  background: green;
+}
+
+/* #home-body .container .home-body-info .modal {
+  margin-top: 100px;
+  height: 400px;
+} */
+
+#success {
+  height: 100%;
+}
+
+#success .container {
+  margin-top: 10rem;
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+
+
+
+/* Media Queries */
+
+/* Small Devices , Tablets Pro  */
+@media screen and (max-width: 1024px) {
+
+}
+
+
+/* Small Devices , Tablets   */
+@media screen and (max-width: 768px) {
+  #home-body .container .subhead {
+    margin-left: 0;
+  }
+}
+
+/* Small Devices , Mobiles   */
+@media screen and (max-width: 420px) {
+  #home-body .container .subhead {
+    margin-left: 0;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #success {
+    /* height: 100vh; */
+  }
+}
+
+
+/* Small Devices , Mobiles  */
+@media screen and (max-width: 375px) {
+
+  #stage {
+    height: 40vh;
+  }
+
+  #kudo-caption    {
+    margin-top: 11rem;
+  }
+
+  #kudo-caption .content {
+    padding: 2rem 1rem;
+  }
+
+  #kudo-caption .content p {
+    font-size: 1.4rem;
+  }
+
+  #home-body {
+    margin-top: 11rem;
+  }
+
+  hr {
+    display: block;
+  }
+
+  #home-body .container .home-body-info h3 {
+    font-size: 1.8rem;
+  }
+
+  #home-body .container .home-body-info p {
+    font-size: 1.1rem;
+  }
+
+  #home-body .container .home-body-info .info-button {
+    font-size: 0.9rem;
+  }
+}
+
+
+/* Small Devices, Mobiles  */
+@media screen and (max-width: 340px) {
+
+  #home-body .container .home-body-info .modal .modal-body input {
+    width: 17rem;
+  }
+
+  #home-body .container .home-body-info .modal .modal-body input[placeholder] {
+    padding: 8px 10px;
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+  }
+
+}

@@ -1,0 +1,149 @@
+#main-one {
+    height: 100vh;
+    /* overflow-y: hidden; */
+}
+
+#main-one #stage-left {
+  margin-top: 150px;
+  text-align: center;
+}
+
+#main-one .stage-left-caption h3 {
+  font-family: "Neuton";
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+#main-one .stage-left-caption p {
+  font-family: "Montserrat";
+  font-size: 1.8rem;
+}
+
+#main-one #stage-left .btn-caption {
+  margin-top: 10rem;
+}
+
+#main-one #stage-left .btn-caption h3 {
+  font-family: "Neuton";
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+#main-one #stage-left .btn-caption a {
+  width: 10.2rem;
+  height: 4rem;
+  background: #071A52;
+  padding: 0.8rem 2.0rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-family: "Montserrat";
+}
+
+#main-one #stage-left .btn-caption a:hover {
+  background-color: #0c2a8d;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.9);
+  transition: 0.2s ease;
+}
+
+#main-one #stage-right {
+    background: #A7FF83;
+    height: 100vh ;
+}
+
+#main-one #stage-right img {
+    width: 500px;
+    display: block;
+    margin: 50px auto 0;
+}
+
+
+
+
+
+/* Media Queries  */
+
+/* Small Devices, Tablets Pro */
+@media screen and (max-width: 1024px) {
+
+    #main-one #stage-right img {
+        width: 400px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media screen and (max-width: 768px) {
+
+    #main-one #stage-right img {
+        width: 400px;
+    }
+
+    #main-one #stage-right img {
+      margin-top: 30px;
+    }
+
+    #main-one #stage-right {
+      height: 70vh;
+    }
+
+    #main-one #stage-left {
+      margin-bottom: 3rem;
+      z-index: 99;
+    }
+
+    #main-one .row {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    #main-one #stage-left {
+      margin-top: 3rem;
+    }
+
+    #main-one #stage-left .stage-left-caption h3 {
+      font-size: 2rem;
+    }
+
+    #main-one #stage-left .stage-left-caption p {
+      font-size: 1.4rem;
+      margin-top: -1rem;
+    }
+
+    #main-one #stage-left .btn-caption {
+      margin: 3rem 0;
+    }
+
+    #main-one #stage-left .btn-caption h3 {
+      font-size: 1.8rem;
+    }
+
+    #main-one #stage-left .btn-caption a {
+      padding: 0.7rem 1.8rem;
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+}
+
+/* Small Devices , Mobiles */
+@media screen and (max-width: 380px) {
+
+    #main-one {
+      /* height: 100vh; */
+      /* margin-bottom: 4rem; */
+      overflow-y: visible;
+    }
+
+    #main-one #stage-left {
+      margin-bottom: 4rem;
+    }
+
+    #main-one #stage-right {
+        height: 70vh ;
+    }
+
+    #main-one #stage-right img {
+        width: 300px;
+    }
+
+}

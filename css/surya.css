@@ -1,0 +1,261 @@
+#surya-one {
+  margin-top: 8rem;
+}
+
+#surya-one .content {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#surya-one .content h1 {
+  font-family: "Neuton";
+  text-align: center;
+  font-size: 3.2rem;
+}
+
+#surya-one .content .surya-body {
+  margin-top: 8rem;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+#surya-one .content .basic-modal p {
+  font-size: 1.3rem;
+}
+
+#surya-one .content .basic-modal {
+  margin: 7rem 0;
+}
+
+#surya-one .content .surya-exc img {
+  width: auto;
+}
+
+
+#surya-one .content .basic-modal p:nth-of-type(1) {
+  margin-top: 5rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+#surya-one .content .basic-modal .info-button {
+  /* width: 10.2rem;
+  height: 4rem; */
+  border: none;
+  outline: none !important;
+  background: #071A52;
+  padding: 0.7rem 1.8rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-family: "Montserrat";
+}
+
+#surya-one .content .basic-modal .info-button:hover {
+  background-color: #0c2a8d;
+  box-sizing: border-box;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.9);
+  transition: 0.2s ease;
+}
+
+#surya-one .content .basic-modal .modal-footer button {
+  background: none;
+  outline: none !important;
+  border: none;
+}
+
+
+#surya-one .content .basic-modal .modal .modal-header {
+  background-color: #A7FF83;
+}
+
+#surya-one .content .basic-modal .modal .modal-header h5 {
+  font-family: "Neuton";
+  font-size: 1.8rem;
+}
+
+#surya-one .content .basic-modal .modal p {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+#surya-one .content .basic-modal .modal .modal-body input {
+  width: 19rem;
+  border: .5px solid grey;
+  border-radius: 4px;
+
+}
+
+#surya-one .content .basic-modal .modal .modal-body label {
+  font-family: "Montserrat";
+}
+
+#surya-one .content .basic-modal .modal .modal-body input[placeholder] {
+  padding: 8px 10px;
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+
+#surya-one .content .basic-modal .modal .modal-body input:focus {
+  outline: none !important;
+  border: 1.4px solid #34C002;
+}
+
+#surya-one .content .basic-modal .modal .modal-body .modal-footer .cancel-btn {
+  background: grey;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#surya-one .content .basic-modal .modal .modal-body .modal-footer .get-btn {
+  background: #34C002;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#surya-one .content .basic-modal .modal .modal-body .modal-footer .get-btn:hover {
+  background: green;
+}
+
+
+#surya-one .surya-exc h3 {
+  font-family: "Neuton";
+  color: grey;
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+#surya-one .surya-exc .surya-steps h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+#surya-one .surya-exc  {
+  margin-top: 7rem;
+  background: #f2f2f2;
+  padding: 4rem;
+}
+
+#surya-one .surya-exc .surya-steps {
+  padding-bottom: 8rem;
+}
+
+#surya-one .surya-exc .surya-steps h4 {
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  margin: 2rem 0;
+  font-weight: bold;
+}
+
+#surya-one .surya-exc .surya-steps p {
+  font-size: 1.2rem;
+}
+
+
+
+
+
+/* Media Queries */
+
+/* For Small Devices  */
+@media screen and (max-width: 768px) {
+
+  #surya-one .content {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  #surya-one .surya-body {
+    padding: 1rem;
+  }
+
+
+  #surya-one .content .basic-modal{
+    padding: 1rem;
+  }
+
+  #surya-one .surya-exc {
+    padding: 2rem;
+  }
+
+}
+
+
+/* Small Devices, Mobiles  */
+@media screen and (max-width: 375px) {
+
+  #surya-one .content h1 {
+    font-size: 2.6rem;
+  }
+
+  #surya-one .content .basic-modal .modal-form .info-button {
+    padding: 0.6rem 1.4rem;
+  }
+
+  #surya-one .content .basic-modal .modal .modal-body input {
+    width: 17rem;
+  }
+
+  #surya-one .content .basic-modal .modal .modal-body input[placeholder] {
+    padding: 8px 10px;
+    font-family: "Montserrat";
+    font-size: 0.9rem;
+  }
+
+  #surya-one .surya-exc h3 {
+    font-size: 2rem;
+  }
+
+  #surya-one .surya-exc .surya-steps h2 {
+    font-size: 1.4rem;
+  }
+
+  #surya-one .surya-exc .surya-steps h4 {
+    font-size: 1.3rem;
+  }
+
+  #surya-one .surya-exc .surya-steps p {
+    font-size: 1.1rem;
+  }
+
+}
+
+
+/* Small Devices, Mobiles  */
+@media screen and (max-width: 320px) {
+
+  #surya-one .content {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  #surya-one .surya-body {
+    padding: 0.5rem;
+  }
+
+
+  #surya-one .content .basic-modal {
+    padding: 0;
+  }
+
+  #surya-one .content .basic-modal p {
+    padding: .4rem;
+  }
+
+  #surya-one .content .basic-modal .modal-form .info-button {
+    margin-left: 0.4rem;
+    padding: 0.6rem 1.5rem;
+  }
+
+  #surya-one .surya-exc {
+    padding: 0.8rem;
+  }
+
+
+}
